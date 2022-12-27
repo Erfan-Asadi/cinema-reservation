@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/%7Bcinema-reservation%7D/static/js/main.f01e71c1.js",
-    "index.html": "/%7Bcinema-reservation%7D/index.html",
-    "main.f01e71c1.js.map": "/%7Bcinema-reservation%7D/static/js/main.f01e71c1.js.map"
+    "main.js": "/cinema-reservation/static/js/main.a9cc4b22.js",
+    "index.html": "/cinema-reservation/index.html",
+    "main.a9cc4b22.js.map": "/cinema-reservation/static/js/main.a9cc4b22.js.map"
   },
   "entrypoints": [
-    "static/js/main.f01e71c1.js"
+    "static/js/main.a9cc4b22.js"
   ]
 }
