@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kalameh', 'Helvetica Neue', Helvetica, Arial;
+}
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-wrap: wrap;
+    background-color: #f3f3f3;
+}
+.reservation-status {
+    align-self: flex-start;
+    background-color: #efefef;
+    box-shadow: 0 2px 2px rgba(87, 87, 87, 0.25);
+    padding: 30px 44px;
+    min-width: 300px;
+    border-radius: 0 0 9px 9px;
+}
+.reservation-status td {
+    text-align: center;
+    padding: 7px 10px;
+}
+.cinema-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.seats-container {
+    display: grid;
+    grid-template-columns: repeat(7, 45px);
+    gap: 18px 14px;
+}
+.seat {
+    width: 45px;
+    height: 45px;
+    border-radius: 50% 50% 0 0;
+    background-color: #d6d6d6;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+.seat:hover {
+    border: 1px solid rgba(87, 87, 87, 0.25);
+    transform: scale(.95);
+}
+.seat.unavailable {
+    cursor:not-allowed;
+    background-color: #fc6a6a;
+}
+.seat.selected {
+    background-color: #2fcffb;
+}
+form {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+form button {
+    border-radius: 9px;
+    padding: 18px 50px;
+    box-shadow: 0 2px 2px rgba(87, 87, 87, 0.25);
+    font-weight: 500;
+    white-space: nowrap;
+    display: inline-block;
+    font-size: 16px;
+    border: 0;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+button.clear {
+    background-color: #efefef;
+}
+button.reserve {
+    background-color: #94ff93;
+}
