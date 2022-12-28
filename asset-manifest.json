@@ -1,10 +1,13 @@
 {
   "files": {
-    "main.js": "/cinema-reservation/static/js/main.a9cc4b22.js",
+    "main.css": "/cinema-reservation/static/css/main.0ea8c1a7.css",
+    "main.js": "/cinema-reservation/static/js/main.2f1739e4.js",
     "index.html": "/cinema-reservation/index.html",
-    "main.a9cc4b22.js.map": "/cinema-reservation/static/js/main.a9cc4b22.js.map"
+    "main.0ea8c1a7.css.map": "/cinema-reservation/static/css/main.0ea8c1a7.css.map",
+    "main.2f1739e4.js.map": "/cinema-reservation/static/js/main.2f1739e4.js.map"
   },
   "entrypoints": [
-    "static/js/main.a9cc4b22.js"
+    "static/css/main.0ea8c1a7.css",
+    "static/js/main.2f1739e4.js"
   ]
 }
